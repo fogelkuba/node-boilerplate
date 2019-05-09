@@ -2,10 +2,10 @@
 
 Built-in support for ES6 (Babel) 
 
-1. ## Install dependencies
+1.  **Install dependencies**
    - npm install
 
-2. ## Run app 
+2.  **Run app** 
    - npm dev
    - npm start
 
