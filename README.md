@@ -2,6 +2,5 @@
 
    - npm install
 
-   - "dev":
-   - "start"
-   - "build":
+   - npm dev
+   - npm start
