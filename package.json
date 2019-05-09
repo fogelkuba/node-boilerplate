@@ -1,0 +1,30 @@
+{
+  "name": "node-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon -w src --exec \"babel-node src\"",
+    "prestart": "npm run -s build",
+    "start": "node dist/index.js",
+    "build": "rimraf .dist && babel ./src -d ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fogelkuba/node-babel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fogelkuba/node-babel/issues"
+  },
+  "homepage": "https://github.com/fogelkuba/node-babel#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.4",
+    "rimraf": "^2.6.3"
+  }
+}
