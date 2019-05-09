@@ -1,13 +1,12 @@
 'use strict';
 
-var _express = require('express');
+// import express from 'express';
 
-var _express2 = _interopRequireDefault(_express);
+// const app = express();
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+// app.listen('8080', () => {
+//     console.log('Server is up!');
 
-var app = (0, _express2.default)();
+// })
 
-app.listen('8080', function () {
-    console.log('Server is up!');
-});
+console.log('init');

@@ -1,8 +1,10 @@
-import express from 'express';
+// import express from 'express';
 
-const app = express();
+// const app = express();
 
-app.listen('8080', () => {
-    console.log('Server is up!');
+// app.listen('8080', () => {
+//     console.log('Server is up!');
     
-})
+// })
+
+console.log('app init ');
