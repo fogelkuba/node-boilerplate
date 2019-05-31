@@ -1,0 +1,34 @@
+function square (a, b, c ) {
+
+    if (a === 0 ) {
+        return false
+    }
+
+    const delta = (Math.pow(b, 2)) - (4 * a * c);
+    console.log(delta);
+    const x = [];
+
+    if (delta < 0) {
+        return x
+
+    } else {
+        let res = ((-b) - Math.sqrt(delta)) / (2 * a);
+        x.push(res);
+    }
+
+    if (delta > 0) {
+        let res = ((-b) + Math.sqrt(delta)) / (2 * a);
+        x.push(res);
+
+    } else {
+        return x
+    }
+
+    return x;
+}
+
+
+console.log(square(1, 0, -4));
+console.log(square(2, -4, 2));
+console.log(square(1, -4, 4));
+console.log(square(1, 0, 2));
