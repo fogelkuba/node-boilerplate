@@ -315,7 +315,6 @@ class DiscountStrategy {
         } else {
             productTotal = ((value - amount) * price)
         }
-
         return productTotal;
     }
 
